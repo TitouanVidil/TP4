@@ -15,6 +15,6 @@ public class Main {
         Controleur c1 = new Controleur();
         Connection c = Connexion.getConnexion(url,props);
         System.out.println(c);
-        //c1.traiterRequete(c);
+        c1.traiterRequete(c);
     }
 }

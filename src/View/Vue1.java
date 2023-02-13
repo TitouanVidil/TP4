@@ -2,9 +2,9 @@ package View;
 
 import java.sql.*;
 
-public class Vue
+public class Vue1
 {
-    public Vue(){}
+    public Vue1(){}
 
     public void showView(ResultSet resultat) throws SQLException {
         while(resultat.next())
