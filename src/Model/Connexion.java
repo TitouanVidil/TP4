@@ -22,7 +22,7 @@ public class Connexion
 
         try
         {
-            con = DriverManager.getConnection(url,"root","");
+            con = DriverManager.getConnection(url,props);
         }
         catch(SQLException e)
         {

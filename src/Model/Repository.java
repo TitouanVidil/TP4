@@ -12,11 +12,7 @@ public class Repository
     Statement stmt = null;
     ResultSet resultat = null;
 
-    public Repository(Statement stmt)
-    {
-        this.stmt = stmt;
-        this.resultat = null;
-    }
+    public Repository() {}
 
 
     public ResultSet execRequête(Connection con,String requete)
